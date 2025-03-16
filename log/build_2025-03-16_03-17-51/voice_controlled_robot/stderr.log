@@ -1,0 +1,5 @@
+  File "/home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot/Nodes.py", line 119
+    def main(args=none)
+                       ^
+SyntaxError: expected ':'
+

@@ -1,0 +1,5 @@
+[console_scripts]
+control = voice_controlled_robot.ControlNode:main
+energy = voice_controlled_robot.EnergyNode:main
+speak = voice_controlled_robot.SpeechNode:main
+

@@ -1,0 +1,32 @@
+[0.318s] Invoking command in '/home/abd3194/ros2_ws/src/voice_controlled_robot': PYTHONPATH=/home/abd3194/ros2_ws/build/voice_controlled_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_controlled_robot build --build-base /home/abd3194/ros2_ws/build/voice_controlled_robot/build install --record /home/abd3194/ros2_ws/build/voice_controlled_robot/install.log --single-version-externally-managed install_data
+[0.442s] running egg_info
+[0.443s] writing ../../build/voice_controlled_robot/voice_controlled_robot.egg-info/PKG-INFO
+[0.443s] writing dependency_links to ../../build/voice_controlled_robot/voice_controlled_robot.egg-info/dependency_links.txt
+[0.443s] writing entry points to ../../build/voice_controlled_robot/voice_controlled_robot.egg-info/entry_points.txt
+[0.443s] writing requirements to ../../build/voice_controlled_robot/voice_controlled_robot.egg-info/requires.txt
+[0.443s] writing top-level names to ../../build/voice_controlled_robot/voice_controlled_robot.egg-info/top_level.txt
+[0.444s] reading manifest file '../../build/voice_controlled_robot/voice_controlled_robot.egg-info/SOURCES.txt'
+[0.444s] writing manifest file '../../build/voice_controlled_robot/voice_controlled_robot.egg-info/SOURCES.txt'
+[0.445s] running build
+[0.445s] running build_py
+[0.445s] copying voice_controlled_robot/ControlNode.py -> /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib/voice_controlled_robot
+[0.445s] copying voice_controlled_robot/SpeechNode.py -> /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib/voice_controlled_robot
+[0.445s] copying voice_controlled_robot/EnergyNode.py -> /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib/voice_controlled_robot
+[0.445s] running install
+[0.445s] running install_lib
+[0.446s] copying /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib/voice_controlled_robot/ControlNode.py -> /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot
+[0.446s] copying /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib/voice_controlled_robot/SpeechNode.py -> /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot
+[0.446s] copying /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib/voice_controlled_robot/EnergyNode.py -> /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot
+[0.446s] byte-compiling /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot/ControlNode.py to ControlNode.cpython-310.pyc
+[0.447s] byte-compiling /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot/SpeechNode.py to SpeechNode.cpython-310.pyc
+[0.447s] byte-compiling /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot/EnergyNode.py to EnergyNode.cpython-310.pyc
+[0.448s] running install_data
+[0.448s] running install_egg_info
+[0.449s] removing '/home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.449s] Copying ../../build/voice_controlled_robot/voice_controlled_robot.egg-info to /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot-0.0.0-py3.10.egg-info
+[0.449s] running install_scripts
+[0.462s] Installing control script to /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/voice_controlled_robot
+[0.462s] Installing energy script to /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/voice_controlled_robot
+[0.462s] Installing speak script to /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/voice_controlled_robot
+[0.463s] writing list of installed files to '/home/abd3194/ros2_ws/build/voice_controlled_robot/install.log'
+[0.478s] Invoked command in '/home/abd3194/ros2_ws/src/voice_controlled_robot' returned '0': PYTHONPATH=/home/abd3194/ros2_ws/build/voice_controlled_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_controlled_robot build --build-base /home/abd3194/ros2_ws/build/voice_controlled_robot/build install --record /home/abd3194/ros2_ws/build/voice_controlled_robot/install.log --single-version-externally-managed install_data

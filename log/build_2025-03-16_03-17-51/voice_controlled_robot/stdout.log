@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/voice_controlled_robot/voice_controlled_robot.egg-info
+writing ../../build/voice_controlled_robot/voice_controlled_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/voice_controlled_robot/voice_controlled_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/voice_controlled_robot/voice_controlled_robot.egg-info/entry_points.txt
+writing requirements to ../../build/voice_controlled_robot/voice_controlled_robot.egg-info/requires.txt
+writing top-level names to ../../build/voice_controlled_robot/voice_controlled_robot.egg-info/top_level.txt
+writing manifest file '../../build/voice_controlled_robot/voice_controlled_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/voice_controlled_robot/voice_controlled_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/voice_controlled_robot/voice_controlled_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abd3194/ros2_ws/build/voice_controlled_robot/build
+creating /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib
+creating /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib/voice_controlled_robot
+copying voice_controlled_robot/__init__.py -> /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib/voice_controlled_robot
+copying voice_controlled_robot/Nodes.py -> /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib/voice_controlled_robot
+running install
+running install_lib
+creating /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot
+copying /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib/voice_controlled_robot/__init__.py -> /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot
+copying /home/abd3194/ros2_ws/build/voice_controlled_robot/build/lib/voice_controlled_robot/Nodes.py -> /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot
+byte-compiling /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot/Nodes.py to Nodes.cpython-310.pyc
+running install_data
+creating /home/abd3194/ros2_ws/install/voice_controlled_robot/share/ament_index
+creating /home/abd3194/ros2_ws/install/voice_controlled_robot/share/ament_index/resource_index
+creating /home/abd3194/ros2_ws/install/voice_controlled_robot/share/ament_index/resource_index/packages
+copying resource/voice_controlled_robot -> /home/abd3194/ros2_ws/install/voice_controlled_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/abd3194/ros2_ws/install/voice_controlled_robot/share/voice_controlled_robot
+running install_egg_info
+Copying ../../build/voice_controlled_robot/voice_controlled_robot.egg-info to /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/python3.10/site-packages/voice_controlled_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control script to /home/abd3194/ros2_ws/install/voice_controlled_robot/lib/voice_controlled_robot
+writing list of installed files to '/home/abd3194/ros2_ws/build/voice_controlled_robot/install.log'
