@@ -9,9 +9,6 @@ import sounddevice
 
 
 
-
-
-
 class ControlNode(Node):
     def __init__(self):
         super().__init__("control_node")

@@ -1,0 +1,7 @@
+rclpy
+std_msgs
+geometry_msgs.msg
+time
+speech_recognition
+pyaudio
+sounddevice
