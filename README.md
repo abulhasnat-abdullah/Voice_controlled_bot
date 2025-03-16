@@ -33,7 +33,7 @@ source install/setup.bash
 
 ## 🐳 Running with Docker
 
-Dockerhub : https://hub.docker.com/repository/docker/wakifrajin/voice_assist_bot
+Dockerhub : 
 
 ### **1️⃣ Pull the Docker Image**
 ```bash
