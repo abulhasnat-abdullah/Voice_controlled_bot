@@ -23,7 +23,7 @@ Voice-Controlled TurtleBot3 is an exciting ROS2-based project that allows you to
 ### **1️⃣ Clone the repository**
 ```bash
 git clone https://github.com/abulhasnat-abdullah/voice_controlled_bot.git
-cd voice_assist_bot
+cd voice_controlled_bot
 ```
 ### **2️⃣ Build the ROS2 Package**
 ```bash
