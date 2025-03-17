@@ -1,3 +1,2 @@
-speech_recognition
-pyaudio
+SpeechRecognition
 sounddevice
