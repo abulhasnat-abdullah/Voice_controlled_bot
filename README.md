@@ -1,17 +1,17 @@
-# Voice Assisted TurtleBot3
+# Voice-Controlled TurtleBot3
 
-## 📌 Overview
-Voice Assist TurtleBot3 is a ROS2-based project that enables controlling a TurtleBot3 in Gazebo simulation using voice commands. The robot responds to spoken commands for movement and energy management, making it a unique interactive experience.
+## 🌟 Overview
+Voice-Controlled TurtleBot3 is an exciting ROS2-based project that allows you to control a TurtleBot3 robot within a Gazebo simulation environment using simple voice commands. The robot responds dynamically to commands for movement and energy management, offering an engaging and hands-free robotics experience.
 
-## 🚀 Features
-- 🎙️ **Voice-Controlled Navigation**: Move the robot using voice commands like "forward", "left", "right".
-- 🔋 **Energy Management System**: The robot consumes energy while moving and can replenish energy using specific voice triggers like "heal" or "kaboom".
-- 📡 **Real-time ROS2 Communication**: Uses `rclpy` to process commands and send movement instructions to `/cmd_vel`.
-- 🐳 **Dockerized Deployment**: The entire project can be built and run inside a Docker container.
+## 🚀 Key Features
+- **🎙️ Voice-Controlled Navigation**: Direct the robot effortlessly with voice commands such as "forward", "left", and "right" to navigate the simulation.
+- **🔋 Energy Management**: Manage the robot's energy by using voice triggers like "heal" to recharge or "kaboom" to initiate energy actions.
+- **📡 Real-time ROS2 Communication**: Built using `rclpy`, the system processes voice commands and sends movement instructions to the `/cmd_vel` topic in real-time.
+- **🐳 Dockerized Setup**: The entire system is containerized, making it simple to deploy, build, and run inside a Docker container for a smooth and consistent experience across different environments.
 
 ## 📁 Repository Structure
 ```
-📂 voice_assist_bot
+📂 voice_controlled_bot
  ├── 📂 src/                     # ROS2 package source code
  ├── 📄 Dockerfile               # Dockerfile for containerization
  ├── 📄 requirements.txt         # Python dependencies
@@ -22,7 +22,7 @@ Voice Assist TurtleBot3 is a ROS2-based project that enables controlling a Turtl
 ## 🔧 Installation
 ### **1️⃣ Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/voice_assist_bot.git
+git clone https://github.com/abulhasnat-abdullah/voice_controlled_bot.git
 cd voice_assist_bot
 ```
 ### **2️⃣ Build the ROS2 Package**
@@ -37,11 +37,11 @@ Dockerhub :
 
 ### **1️⃣ Pull the Docker Image**
 ```bash
-docker pull YOUR_DOCKERHUB_USERNAME/voice_assist_bot
+docker pull abulhasnatabdullah/voice_controlled_robot
 ```
 ### **2️⃣ Run the Container**
 ```bash
-docker run -it --rm YOUR_DOCKERHUB_USERNAME/voice_assist_bot
+docker run --device /dev/snd:/dev/snd -it abulhasnatabdullah/voice_controlled_robot
 ```
 
 ## 🎤 Voice Commands
