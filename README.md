@@ -30,6 +30,19 @@ cd voice_controlled_robot
 colcon build
 source install/setup.bash
 ```
+### Run the Nodes
+#### Start the Speaker Node
+```bash
+ros2 run voice_controlled_robot speak
+```
+#### Start the Control Node
+```bash
+ros2 run voice_controlled_robot control
+```
+#### Start the Energy Node
+```bash
+ros2 run voice_controlled_robot energy
+```
 
 ## 🐳 Running with Docker
 
